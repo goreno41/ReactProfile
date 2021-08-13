@@ -12,6 +12,10 @@
   background-color: var(--background);
 }
 
+.background {
+  background-color: white;
+}
+
 .header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -63,6 +67,7 @@ body {
   margin-top: 10px;
   border: 3px solid var(--accent);
   border-radius: 10px;
+  background-color: white;
 }
 
 .linkButton {
@@ -75,6 +80,18 @@ body {
 }
 
 .aboutme h2 {
+  flex: 1;
+  background-color: var(--background);
+  padding: 10px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+.projects {
   flex: 1;
   background-color: var(--background);
   padding: 10px;
@@ -142,34 +159,27 @@ body {
 .contactme {
   padding: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--accent);
-  color: #ffffff;
+  color: var(--accent);
 }
-.contactme h3 {
-  display: inline-block;
-  font-size: 25px;
-}
-
-.contactme p {
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-}
-
-.contactlist {
+.contactme ul {
   list-style-type: none;
+  
 }
 
-.contactlist {
-  display: table-row;
+.contactme ul li {
+  display: inline-block;
   margin-left: 25px;
+  align-items: center;
+
+}
+
+.contactme ul li a {
   color: #ffffff;
 }
 
 .contactlist li a{
   color: #ffffff;
+  padding: 10px;
 }
 
 .center {

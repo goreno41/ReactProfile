@@ -6,7 +6,7 @@ const WorkPortfolio = () => {
     return (
         
         <div>
-            <h2 class="center">Projects</h2>
+            <h2 class="projects">Projects</h2>
             <p class="align-self-center">
                 <div class="card projectCard">
                     <div class="card-body">

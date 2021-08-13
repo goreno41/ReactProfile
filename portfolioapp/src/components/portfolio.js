@@ -1,12 +1,12 @@
 import React from "react";
 
 
-const portfolio = () => {
+const WorkPortfolio = () => {
     
     return (
         
         <div>
-            <h2>Projects</h2>
+            <h2 class="center">Projects</h2>
             <p class="align-self-center">
                 <div class="card projectCard">
                     <div class="card-body">
@@ -48,4 +48,4 @@ const portfolio = () => {
     );
 };
 
-export default portfolio;
+export default WorkPortfolio;

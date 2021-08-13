@@ -1,10 +1,10 @@
 import React from "react";
-import Portfolio from "../components/portfolio";
+import WorkPortfolio from "../components/portfolio";
 
 function Portfolio() {
     return (
         <div>
-            <Portfolio />
+            <WorkPortfolio />
         </div>
     )
 }

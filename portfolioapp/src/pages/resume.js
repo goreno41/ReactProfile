@@ -1,10 +1,10 @@
 import React from "react";
-import Resume from "../components/resume";
+import MyResume from "../components/resume";
 
 function Resume () {
     return (
         <div>
-            <Resume />
+            <MyResume />
         </div>
     )
 }

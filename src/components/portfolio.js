@@ -9,7 +9,7 @@ const WorkPortfolio = () => {
             <h2 class="projects">Projects</h2>
             <p class="align-self-center">
                 <div class="card projectCard">
-                    <div class="card-body">
+                    <div class="card-body background">
                         <h4 class="card-title">Movie Pop</h4>
                         <p class="card-text">
                         A web application that generates movie suggestions, shows top critic's picks, grants easy access to trailers, and shows where to watch.

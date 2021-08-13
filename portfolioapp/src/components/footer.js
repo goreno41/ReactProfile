@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer () {
     return (
-        <p>Copyright 2021 Josh Reanud</p>
+        <p class="center">Copyright 2021 Josh Reanud</p>
     );
 };
 
